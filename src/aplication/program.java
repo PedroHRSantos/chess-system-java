@@ -1,6 +1,14 @@
 package aplication;
+
+
+
+import bordegame.Position;
+
+
 public class program {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+        
+        Position position = new Position (3,4);
+        System.out.println(position);
     }
 }

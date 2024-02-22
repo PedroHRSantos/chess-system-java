@@ -2,13 +2,13 @@ package aplication;
 
 
 
+import bordegame.Board;
 import bordegame.Position;
 
 
-public class program {
+public class Program {
     public static void main(String[] args) throws Exception {
         
-        Position position = new Position (3,4);
-        System.out.println(position);
+        Board board = new Board(8,8);
     }
 }

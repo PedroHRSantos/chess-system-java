@@ -1,8 +1,8 @@
 package bordegame;
 
 public class Position {
-    private Integer row;
-    private Integer column;
+    private Integer row; //linha
+    private Integer column; //coluna
     
     public Position(Integer row, Integer column) {
         this.row = row;
